@@ -1,0 +1,3 @@
+C:\Users\LENOVO\tmx\src\WinMux.Cli\bin\Release\net8.0\win-x64\publish\WinMux.Cli.pdb
+C:\Users\LENOVO\tmx\src\WinMux.Cli\bin\Release\net8.0\win-x64\publish\WinMux.Core.pdb
+C:\Users\LENOVO\tmx\src\WinMux.Cli\bin\Release\net8.0\win-x64\publish\WinMux.Cli.exe

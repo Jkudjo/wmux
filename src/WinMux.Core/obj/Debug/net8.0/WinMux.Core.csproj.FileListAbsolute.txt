@@ -1,0 +1,11 @@
+C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Debug\net8.0\WinMux.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Debug\net8.0\WinMux.Core.AssemblyInfoInputs.cache
+C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Debug\net8.0\WinMux.Core.AssemblyInfo.cs
+C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Debug\net8.0\WinMux.Core.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\tmx\src\WinMux.Core\bin\Debug\net8.0\WinMux.Core.deps.json
+C:\Users\LENOVO\tmx\src\WinMux.Core\bin\Debug\net8.0\WinMux.Core.dll
+C:\Users\LENOVO\tmx\src\WinMux.Core\bin\Debug\net8.0\WinMux.Core.pdb
+C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Debug\net8.0\WinMux.Core.dll
+C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Debug\net8.0\refint\WinMux.Core.dll
+C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Debug\net8.0\WinMux.Core.pdb
+C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Debug\net8.0\ref\WinMux.Core.dll

@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>WinMux.Cli</AssemblyName>
+    <RootNamespace>WinMux.Cli</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WinMux.Core\WinMux.Core.csproj" />
+  </ItemGroup>
+</Project>

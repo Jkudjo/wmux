@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>WinMux.Core</AssemblyName>
+    <RootNamespace>WinMux.Core</RootNamespace>
+  </PropertyGroup>
+</Project>
