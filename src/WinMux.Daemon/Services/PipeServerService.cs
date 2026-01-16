@@ -10,10 +10,10 @@ using System.Security.Principal;
 
 namespace WinMux.Daemon.Services;
 
-public sealed class PipeServerService(ILogger<PipeServerService> logger) : BackgroundService
+public sealed class PipeServerService(ILogger<PipeServerService> logger, Microsoft.Extensions.Options.IOptions<WinMux.Daemon.Configuration.WinMuxConfig> config) : BackgroundService
 {
     private const string PipeName = "winmuxd";
-    private readonly SessionManager _sessions = new(new LoggerFactory());
+    private readonly SessionManager _sessions = new(new LoggerFactory(), config.Value);
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {

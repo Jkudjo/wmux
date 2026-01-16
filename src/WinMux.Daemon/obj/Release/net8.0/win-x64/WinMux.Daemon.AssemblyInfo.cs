@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinMux.Daemon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88486d7796891dc81b33c8aeb03624bdd8f550b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinMux.Daemon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinMux.Daemon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

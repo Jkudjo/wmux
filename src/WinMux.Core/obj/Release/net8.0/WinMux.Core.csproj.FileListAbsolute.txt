@@ -9,3 +9,4 @@ C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Release\net8.0\WinMux.Core.dll
 C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Release\net8.0\refint\WinMux.Core.dll
 C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Release\net8.0\WinMux.Core.pdb
 C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Release\net8.0\ref\WinMux.Core.dll
+C:\Users\LENOVO\tmx\src\WinMux.Core\obj\Release\net8.0\WinMux.Core.sourcelink.json

@@ -1,1 +1,18 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+dist/
 
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.launchSettings.json
+
+# Config
+config.json
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -45,3 +45,7 @@ C:\Users\LENOVO\tmx\src\WinMux.Daemon\obj\Release\net8.0\win-x64\refint\WinMux.D
 C:\Users\LENOVO\tmx\src\WinMux.Daemon\obj\Release\net8.0\win-x64\WinMux.Daemon.pdb
 C:\Users\LENOVO\tmx\src\WinMux.Daemon\obj\Release\net8.0\win-x64\WinMux.Daemon.genruntimeconfig.cache
 C:\Users\LENOVO\tmx\src\WinMux.Daemon\obj\Release\net8.0\win-x64\ref\WinMux.Daemon.dll
+C:\Users\LENOVO\tmx\src\WinMux.Daemon\bin\Release\net8.0\win-x64\System.IO.Pipelines.dll
+C:\Users\LENOVO\tmx\src\WinMux.Daemon\bin\Release\net8.0\win-x64\System.Text.Encodings.Web.dll
+C:\Users\LENOVO\tmx\src\WinMux.Daemon\bin\Release\net8.0\win-x64\System.Text.Json.dll
+C:\Users\LENOVO\tmx\src\WinMux.Daemon\obj\Release\net8.0\win-x64\WinMux.Daemon.sourcelink.json

@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u3QthTnkP8U=",
+  "dgSpecHash": "7wuGnVPrtrg=",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\tmx\\src\\WinMux.Cli\\WinMux.Cli.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.23\\microsoft.net.illink.tasks.8.0.23.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

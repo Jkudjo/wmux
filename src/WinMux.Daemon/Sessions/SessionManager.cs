@@ -10,13 +10,15 @@ namespace WinMux.Daemon.Sessions;
 
 public sealed class SessionManager
 {
-    private readonly ILogger _logger;
+    private readonly ILogger<SessionManager> _logger;
     private readonly ConcurrentDictionary<string, Session> _sessions = new();
-    private readonly ConcurrentDictionary<string, string> _nameToId = new(StringComparer.OrdinalIgnoreCase);
+    private readonly ConcurrentDictionary<string, string> _nameToId = new();
+    private readonly WinMux.Daemon.Configuration.WinMuxConfig _config;
 
-    public SessionManager(ILoggerFactory loggerFactory)
+    public SessionManager(ILoggerFactory loggerFactory, WinMux.Daemon.Configuration.WinMuxConfig config)
     {
         _logger = loggerFactory.CreateLogger<SessionManager>();
+        _config = config;
     }
 
     public IReadOnlyList<SessionSummary> List()
@@ -38,7 +40,7 @@ public sealed class SessionManager
         var cols = req.Cols ?? 120;
         var rows = req.Rows ?? 30;
         var shell = string.IsNullOrWhiteSpace(req.Shell) ? DefaultShell() : req.Shell!;
-        var cwd = string.IsNullOrWhiteSpace(req.Cwd) ? Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) : req.Cwd!;
+        var cwd = string.IsNullOrWhiteSpace(req.Cwd) ? DefaultCwd() : req.Cwd!;
 
         var session = new Session(_logger, id, name, shell, cwd, cols, rows);
         session.Start();
@@ -53,13 +55,14 @@ public sealed class SessionManager
         _nameToId.TryRemove(s.Name, out _);
     }
 
-    private static string DefaultShell()
+    private string DefaultShell()
     {
-        var pwsh = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles), "PowerShell", "7", "pwsh.exe");
-        if (File.Exists(pwsh)) return pwsh;
-        var powershell = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.System), "WindowsPowerShell", "v1.0", "powershell.exe");
-        if (File.Exists(powershell)) return powershell;
-        return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.System), "cmd.exe");
+        return Environment.ExpandEnvironmentVariables(_config.DefaultShell);
+    }
+
+    private string DefaultCwd()
+    {
+        return Environment.ExpandEnvironmentVariables(_config.DefaultCwd);
     }
 }
 
